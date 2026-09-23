@@ -1,0 +1,54 @@
+body {
+    background-color: #75f48f;
+    color: #220e78;
+
+}
+
+#soccer {
+    background-color: white;
+    color: forestgreen;
+}
+
+.class {
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 30px;
+    font-family: Elephant;
+    border: dodgerblue dashed 12px;
+    margin: 60px;
+    padding: 10px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+a[href*="frhsd.com"] {
+    color: limegreen;
+}
+
+ul li:first-child {
+    color: fuchsia;
+}
+
+a:visited {
+    color: beige;
+}
+
+li:hover {
+    color: navy;
+}
+
+div li {
+    font-style: oblique;
+}
+
+div {
+    li{
+        font-weight: bold;
+    }
+}
+
+li+li{
+    text-indent: ;
+}
