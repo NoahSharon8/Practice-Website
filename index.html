@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <title>First Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 </head>
-<body>
+<body onload="loading()">
     <p>Hello World!</p>
     <div>
     <ol>
         <li class="class">Play Soccer</li>
         <li class="class">Eat Chicken Parm</li>
+        <button id="loco" onclick="addLocal();">0</button>
+        <button id="sess" onclick="addSession();">0</button>
         <li>Go Gym</li>
     </ol>
     <h3>3 Fun Facts</h3>
@@ -30,6 +33,8 @@
             And I’ll no longer be a Capulet.</p>
         <a href="#soccer">internal link</a>
         <a href="https://0x0800.github.io/2048-CUPCAKES/">external link</a>
+        <input type ="text"/>
+        <button onclick="clicked();">button</button>
     </div>
 </body>
 </html>
