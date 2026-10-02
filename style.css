@@ -1,20 +1,29 @@
 body {
-    background-color: #75f48f;
-    color: #220e78;
+    background-color: black;
+    color: white;
 
 }
 
 #soccer {
-    background-color: white;
-    color: forestgreen;
+    background-color: black;
+    color: white;
+}
+
+#jets{
+    color: white;
+    font-size: 30px;
+    font-family: "Trebuchet MS";
+    margin: 60px;
+    padding: 20px;
+    text-align: center;
 }
 
 .class {
-    background-color: rebeccapurple;
+    background-color: forestgreen;
     color: white;
     font-size: 30px;
-    font-family: Elephant;
-    border: dodgerblue dashed 12px;
+    font-family: "Trebuchet MS";
+    border: white solid 5px;
     margin: 60px;
     padding: 10px;
 }
@@ -24,19 +33,19 @@ img{
     height: 200px;
 }
 a[href*="frhsd.com"] {
-    color: limegreen;
+    color: forestgreen;
 }
 
 ul li:first-child {
-    color: fuchsia;
+    color: white;
 }
 
 a:visited {
-    color: beige;
+    color: forestgreen;
 }
 
 li:hover {
-    color: navy;
+    color: black;
 }
 
 div li {
@@ -50,7 +59,7 @@ div {
 }
 
 li+li{
-    text-indent: 50px;
+    text-indent: 10px;
 }
 
 ol {
@@ -59,14 +68,14 @@ ol {
     align-items: center;
 }
  #GW5 {
-     background-color: pink;
+     background-color: black;
      display: grid;
      grid-template-columns: repeat(5, 1fr);
      grid-template-rows: auto auto;
      gap: 12px;
      img {
-         grid-column: span 3;
-         grid-row: span 3;
+         grid-column: span 10;
+         grid-row: span 1;
          height: 100%;
          width: 100%;
      }
@@ -78,4 +87,45 @@ ol {
          grid-column: span 1;
          grid-row: span 1;
      }
+ }
+ h1 {
+     text-align: center;
+     font-size: 60px;
+     font-family: "Trebuchet MS";
+ }
+
+ #world {
+     text-align: center;
+     font-size: 30px;
+     font-family: "Trebuchet MS";
+ }
+ #loco{
+     font-size: 50px;
+     border-color: forestgreen;
+     -webkit-text-fill-color: forestgreen;
+ }
+ #sess {
+     font-size: 50px;
+     border-color: forestgreen;
+     -webkit-text-fill-color: forestgreen;
+ }
+
+ #wins{
+     text-align: left;
+     font-size: 18px;
+ }
+
+ h3{
+     text-align: center;
+     font-size: 50px;
+     font-family: "Trebuchet MS";
+ }
+
+ #button {
+     border-color: forestgreen;
+     -webkit-text-fill-color: forestgreen;
+ }
+
+ #poo{
+     font-size: 20px;
  }
