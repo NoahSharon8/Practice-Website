@@ -74,8 +74,8 @@ ol {
      grid-template-rows: auto auto;
      gap: 12px;
      img {
-         grid-column: span 10;
-         grid-row: span 1;
+         grid-column: span 3;
+         grid-row: span 3;
          height: 100%;
          width: 100%;
      }
